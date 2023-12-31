@@ -1,0 +1,15 @@
+.DS_STORE
+.env
+
+node_modules
+.flowconfig
+build/
+remote-repo/
+coverage/
+.module-cache
+*.log*
+*.iml
+.vscode
+*.swp
+*.swo
+
