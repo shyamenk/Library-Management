@@ -1,0 +1,27 @@
+{
+  "name": "bookipedia",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bookipedia  API provides functionalities for managing books, users, and transactions within a library system. The API supports operations for both users and administrators, allowing secure access and role-based functionality.",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "shyamenk@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.2"
+  }
+}
